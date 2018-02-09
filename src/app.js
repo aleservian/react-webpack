@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const App = React.createClass({
+class App extends Component {
   render() {
     return <div />;
-  },
-});
+  }
+}
 
 export default App;
